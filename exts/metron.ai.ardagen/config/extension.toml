@@ -1,27 +1,30 @@
 [package]
 # Semantic Versionning is used: https://semver.org/
-version = "1.0.0"
+version = "0.1.0"
 
 # The title and description fields are primarily for displaying extension info in UI
-title = "Simple UI Extension Template"
-description="The simplest python extension example. Use it as a starting point for your extensions."
+title = "Metron AI ArDaGen"
+description="The Omniverse extension for Metron AI ArDaGen."
 
 # Path (relative to the root) or content of readme markdown file for UI.
 readme  = "docs/README.md"
 
 # URL of the extension source repository.
-repository = ""
+authors = ["Ondrej Szekely Smith <ondra.szekely@gmail.com>"]
+repository = "https://github.com/OndrejSzekely/metron_ai_ardagen_omni_ext"
 
 # One of categories for UI.
-category = "Example"
+category = "Omniverse"
 
 # Keywords for the extension
-keywords = ["kit", "example"]
+keywords = ["metron", "ardagen"]
 
 
 # Use omni.ui to build simple UI
 [dependencies]
 "omni.kit.uiapp" = {}
+"omni.replicator.core" = {}
+"omni.kit.pip_archive" = {}
 
 # Main python module this extension provides, it will be publicly available as "import metron.ai.ardagen".
 [[python.module]]
