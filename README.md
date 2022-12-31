@@ -1,6 +1,6 @@
 # Metron AI ArDaGen Omniverse Extension
 
-Omniverse Extension for [Metron AI ArDaGen](https://github.com/OndrejSzekely/metron_ai_ardagen)
+Omniverse Extension for [Metron AI ArDaGen](https://github.com/OndrejSzekely/metron_ai_ardagen).
 
 This project was automatically generated.
 
