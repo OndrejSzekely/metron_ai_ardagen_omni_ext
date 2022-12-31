@@ -1,3 +1,0 @@
-[submodule "metron_shared"]
-	path = exts/metron.ai.ardagen/metron/ai/ardagen/metron_shared
-	url = https://github.com/OndrejSzekely/metron_shared
