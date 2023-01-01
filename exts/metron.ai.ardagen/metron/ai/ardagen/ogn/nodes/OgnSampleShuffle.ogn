@@ -1,0 +1,33 @@
+{
+    "SampleShuffle": {
+        "version": 1,
+        "scheduling": "compute-on-request",
+        "language": "python",
+        "categories": {"Replicator:Core": "Core Replicator nodes"},
+        "description": "This node shuffles samples from a list of strings/tokens.",
+        "metadata":
+        {
+           "uiName": "Shuffling Distribution"
+        },
+        "state": {
+            "$comment": ["Internal state"]
+        },
+        "inputs": {
+            "choices": {
+                "description": ["The choices to be sampled"],
+                "type": "any"
+            },
+            "seed": {
+                "description": ["Random Number Generator seed. A value of less than 0 will indicate using the global seed."],
+                "type": "int",
+                "default": -1
+            }
+        },
+        "outputs": {
+            "samples": {
+                "description": ["Shuffled results"],
+                "type": "any"
+            }
+        }
+    }
+}
